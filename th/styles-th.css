@@ -18,9 +18,15 @@ header {
     color: white;
 }
 
-.logo h1 {
-    font-size: 24px;
-    color: #fff;
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjusts spacing between logo and text */
+}
+
+.logo img {
+    height: 40px; /* Adjust logo size as needed */
+    width: auto;
 }
 
 .menu-icon {
